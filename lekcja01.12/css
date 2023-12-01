@@ -1,0 +1,7 @@
+.col{
+  background-color:#999;
+}
+ 
+.col-xl-4, .col-sm-12{
+  background-color:#666;
+}
