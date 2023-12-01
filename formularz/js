@@ -1,0 +1,36 @@
+f = document.getElementById('form');
+i = document.getElementById("imie");
+n = document.getElementById("nazwisko");
+w = document.getElementById("wiek");
+p = document.getElementById("pesel");
+
+f.imie.addEventListener("change", function(e) {walid(this); })
+f.nazwisko.addEventListener("change", function(e) {walid(this); })
+f.pesel.addEventListener("change", function(e) {walid(this); })
+ 
+function walid(imie){
+    if(imie.value.length>3){
+        imie.style.backgroundColor= "green";
+    }
+    else{
+        imie.style.backgroundColor= "red";
+    }
+}
+ 
+ function walid(nazwisko){
+    if(nazwisko.value.length>3){
+        nazwisko.style.backgroundColor= "green";
+    }
+    else{
+        nazwisko.style.backgroundColor= "red";
+    }
+}
+ 
+ function walid(pesel){
+    if(pesel.value.length>2){
+       pesel.style.backgroundColor= "green";
+    }
+    else{
+        pesel.style.backgroundColor= "red";
+    }
+}
