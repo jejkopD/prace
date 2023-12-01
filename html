@@ -1,0 +1,71 @@
+!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>tabela</title>
+    <style>
+        tr,td,th {
+            border:1px solid black;
+            padding: 5px;
+        }
+        table {
+            padding:5px dotted black;
+            width:100%;
+        }
+        td {
+            height:50px;
+            text-align:center;
+            vertical-align:bottom ;
+        
+        }
+        th{
+            background-color: aqua;
+            border:5px solid black;
+        }
+        .wazne{
+            background-color:brown;
+        }
+        .info{
+            background-color: blue;
+
+        }
+        .row{
+            background-color: #666;
+
+        }
+        .row2 {
+            background-color: #444;
+
+
+        }
+    </style>
+</head>
+ 
+<body>
+<table>
+    <tr>
+        <th>naglowek1</th>
+        <th>naglowek2</th>
+        <th lowspan="2">naglowek3</th>
+        <th>naglowek4</th>
+    </tr>
+    <tr>
+        <td>tekst1a</td>
+        <td class="wazne">tekst2a</td>
+        <td>tekst3a</td>
+        <td>tekst4a</td>
+    </tr>
+    <tr>
+    <td class="info">tekst1b</td>
+    <td>tekst2b</td>
+    <td>tekst3b</td>
+    </tr>
+    <tr>
+        <td class="row">tekst1c</td>
+        <td>tekst2c</td>
+        <td class="row2">tekst3c</td>
+        <td>tekst4c</td>
+        </tr>
+</table>
+</body>
+</html>
