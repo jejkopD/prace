@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>obracajacy sie najwiekszy polak w polsce</title>
+</head>
+<body>
+    <img id="rotating-image" src="https://www.mbludzm.pl/_galeria/teksty/sw-jan-pawel-ii-a6c-656.jpg" alt="Obrazek">
+    <script>
+        const image = document.getElementById('rotating-image');
+        let rotation = 0;
+
+        image.addEventListener('click', () => {
+            rotation += 1;
+            image.style.transform = rotate(${rotation}deg);
+        });
+    </script>
+</body>
+</html>
