@@ -1,0 +1,55 @@
+body.html{
+  margin:0px;
+}
+ 
+.kontener{
+  width:99.9%;
+}
+ 
+.naglowek{
+  width:100%;
+  background-color:green;
+  border:1px solid black;
+}
+ 
+.naglowek h2{
+  text-align:center;
+  color:black;
+  
+}
+ 
+.lewy{
+  float:left;
+  background-color:red;
+}
+ 
+.prawy{
+  float:right;
+  background-color:blue;
+}
+ 
+.lewy , .prawy{
+  min-height:1000px;
+  margin:1%;
+  width:45%;
+  padding:5px;
+  border:1px solid black;
+}
+ 
+.stopka{
+  float:left;
+  width:100%;
+  background-color:#853;
+  border:1px solid black;
+}
+ 
+  .prawy{
+    background-color:pink;
+    width:45%;
+  }
+ 
+  .lewy{
+    background-color:purple;
+    width:45%;
+  }
+}
