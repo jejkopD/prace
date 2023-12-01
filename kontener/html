@@ -1,0 +1,15 @@
+<div class="kontener">
+  <div class="naglowek">
+    <h2>nagłówek</h2>
+  </div>
+  <div class="lewy">
+    <h2>tekst</h2>
+  </div>
+  <div class="prawy">
+    <h2>tekst</h2>
+  </div>
+  <div class="stopka">
+    <h2>tekst</h2>
+  </div>
+</div>
+ 
